@@ -8,7 +8,12 @@
 </head>
 <body>
     <div>
-        <nav></nav>
+        <nav class="navigation">
+        <a href="#">Acerca de</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
+        <button class="bthLogin-popup">Iniciar sesión</button>
+        </nav>
     </div>
     
     @yield('content')

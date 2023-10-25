@@ -4,13 +4,6 @@
     <a href="#" class="logo">
         <img src="#" alt="Logo" class="logo-img" style="width: 120px; height: auto;">
     </a>
-    <nav class="navigation">
-   
-        <a href="#">Acerca de</a>
-        <a href="#">Productos</a>
-        <a href="#">Contacto</a>
-        <button class="bthLogin-popup">Iniciar sesión</button>
-    </nav>
 </header>
 <div class="wrapper">
     <span class="icon-close">
