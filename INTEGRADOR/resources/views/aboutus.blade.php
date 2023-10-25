@@ -1,5 +1,5 @@
-@extends ('layouts.mainlayout')
-@section ('content')
+@extends('layouts.mainlayout')
+@section('content')
 <img src="" alt="">
 
 <section>
