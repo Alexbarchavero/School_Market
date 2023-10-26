@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
     <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}"/>
 </head>
 <body>
     <div>
-        <nav class="navigation">
+        <nav id="Estilo" class="navigation">
         <a href="#">Acerca de</a>
         <a href="#">Productos</a>
         <a href="#">Contacto</a>
