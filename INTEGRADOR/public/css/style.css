@@ -1,9 +1,9 @@
-nav {
-    background-color: #79db53;
-    font-weight: bold;
-    font-size: 25px;
-
+body{
+    font-family: 'Roboto';
 }
-a {
-    color: red;
+
+#btnhola{
+    border-width: 0.25em;
+    margin: 15em;
+    padding: 2em;
 }
