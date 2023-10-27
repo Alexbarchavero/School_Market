@@ -1,9 +1,14 @@
 body{
+    font-size: 25px;
     font-family: 'Roboto';
 }
 
 #btnhola{
     border-width: 0.25em;
-    margin: 15em;
-    padding: 2em;
+    margin: 5em;
+    padding: 1em;
+}
+
+#imgch{
+    width: 25em;
 }
