@@ -14,12 +14,13 @@
         <a href="#">Productos</a>
         <a href="#">Contacto</a>
         <button class="bthLogin-popup">Iniciar sesión</button>
-        </nav>
+        </nav><br><br>
     </div>
     
     @yield('content')
+
     <footer>
-        <p>©Derechos Reservados</p>
+        <br><br><p>©Derechos Reservados</p>
     </footer>
 </body>
 </html>
