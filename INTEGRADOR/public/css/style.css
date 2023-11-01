@@ -1,20 +1,24 @@
 body{
-    font-size: 20px !important;
-    font-family: 'Candara';
+    font-size: 50em;
 }
-
-#btnhola{
-    border: 0.5em solid blue;
-    border-radius: 25%;
-    margin: 1em;
-    padding: 1em;
+nav {
+    background-color: #79db53;
     font-weight: bold;
-    font-family: 'Candara';
-    font-size: 10px;
-    text-decoration: underline;
+    font-size: 25px;
+
+}
+a {
+    color: red;
 }
 
-#imgch{
-    width: 25em;
-    border-radius: 10%;
+#boton{
+    border: 0.2em solid blue;
+    border-radius: 20%;
+    margin: 5em 0em;
+    padding: 2em;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:underline black;
+    text-decoration: line-through;
+    font-size: 1em !important;
 }
