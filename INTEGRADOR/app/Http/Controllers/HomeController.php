@@ -19,7 +19,4 @@ class HomeController extends Controller
     public function mvv(){
         return view ('MVV');
     }
-    public function practica(){
-        return view ('practica');
-    }
 }
