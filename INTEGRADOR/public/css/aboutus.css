@@ -1,0 +1,61 @@
+#seccion-1{
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+    align-items: center;
+}
+
+#seccion-1 h1{
+    display: block;
+}
+
+#seccion-1 .pimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.25em;
+    padding: 0.5em;
+}
+
+#seccion-1 .pimg > img{
+    width: 480px;
+    height: 360px;
+    margin: 0.5em;
+}
+
+#seccion-1 .pimg > p{
+    padding: 1.5em;
+    text-align: justify;
+}
+
+
+
+#seccion-2{
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+    align-items: center;
+}
+
+#seccion-2 h1{
+    display: block;
+}
+
+#seccion-2 .imgp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.25em;
+    padding: 0.5em;
+}
+
+#seccion-2 .imgp > img{
+    width: 480px;
+    height: 360px;
+    margin: 0.5em;
+}
+
+#seccion-2 .imgp > p{
+    padding: 1.5em;
+    text-align: justify;
+}
