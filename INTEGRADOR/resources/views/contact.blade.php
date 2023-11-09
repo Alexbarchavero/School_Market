@@ -4,6 +4,7 @@
     <h1>Contacto</h1>
 </div>
 <br>
+<div class="base">
 <div class="razones">
     <h2>Razones por las que podrian contatarnos:</h2>
     <br>
@@ -34,6 +35,7 @@
       <button type="submit">Envíe su mensaje</button>
   </ul>
     </form>
+</div>
 </div>
 <div>   
     <a href="https://www.facebook.com">Facebook</a>

@@ -11,3 +11,18 @@ p{
     text-align: center;
     justify-content: center;
 }
+.razones{
+    flex: 1;
+    text-align: left;
+    max-width: 25%;
+}
+.formulario{
+    flex: 1;
+    text-align: right;
+    text-align: center;
+    justify-content: center;
+    max-width: 25%;
+}
+.base{
+    background-color: #D9E0D8;
+}
