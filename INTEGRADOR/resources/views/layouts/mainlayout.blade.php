@@ -14,7 +14,7 @@
         
     <header id="main-header">
         <a href="#" class="logo">
-            <img src="{{ asset('public/img/LogoP.png') }}" alt="Logo" class="logo-img" style="width: 120px; height: auto;">
+            <img src="https://drive.google.com/file/d/1tb1VCZldTFctB6sTismcVODWkr1vam6i/view?usp=drive_link" alt="Logo" class="logo-img" style="width: 120px; height: auto;">
         </a>
         <nav class="navigation">
             <a href="#">Acerca de</a>
