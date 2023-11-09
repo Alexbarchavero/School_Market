@@ -28,6 +28,7 @@ p{
     flex-direction: column;
     height: auto;
     background-color: #35AACF;
+    margin-right: 50px;
 }
 .base{
     display: flex;
