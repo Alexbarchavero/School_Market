@@ -1,10 +1,13 @@
 @extends('layouts.mainlayout')
 @section('content')
-<header>
-    <a href="#" class="logo">
-        <img src="#" alt="Logo" class="logo-img" style="width: 120px; height: auto;">
-    </a>
-</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión y registrarse</title>
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
+</head>
+<body>
 <div class="wrapper">
     <span class="icon-close">
         <ion-icon name="close"></ion-icon>
@@ -55,7 +58,7 @@
                 <input type="email" required>
                 <label>Correo electrónico</label>
             </div>
-            <div class="input-box">
+            <div class "input-box">
                 <span class="icon">
                     <ion-icon name="lock-closed"></ion-icon>
                 </span>
@@ -73,7 +76,9 @@
         </form>
     </div>
 </div>
-
-
+<script src="{{ asset('script.js') }}"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
 
 @stop

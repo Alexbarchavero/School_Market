@@ -10,7 +10,9 @@ a{
     color: black;
 }
 
-header {
+
+
+#main-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -20,15 +22,16 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    background: rgba(22, 41, 56, 0.8); 
 }
 
-.logo {
+#main-header .logo {
     font-size: 2em;
     color: #ffffff;
     user-select: none;
 }
 
-.navigation a {
+#main-header .navigation a {
     position: relative;
     font-size: 1.1em;
     color: #ffffff;
@@ -37,7 +40,7 @@ header {
     margin-left: 40px;
 }
 
-.navigation a::after {
+#main-header .navigation a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -51,12 +54,12 @@ header {
     transition: transform .5s;
 }
 
-.navigation a:hover::after {
+#main-header .navigation a:hover::after {
     transform-origin: left;
     transform: scaleX(1);
 }
 
-.navigation .bthLogin-popup {
+#main-header .navigation .bthLogin-popup {
     width: 130px;
     height: 50px;
     background: transparent;
@@ -71,7 +74,7 @@ header {
     transition: .5s;
 }
 
-.navigation .bthLogin-popup:hover {
+#main-header .navigation .bthLogin-popup:hover {
     background: #ffffff;
     color: #162938;
 }
