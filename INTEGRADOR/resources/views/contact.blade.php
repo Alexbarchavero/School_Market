@@ -1,6 +1,6 @@
 @extends('layouts.mainlayout')
 @section('content')
-<div>
+<div class="Tcontacto">
     <h1>Contacto</h1>
 </div>
 <div>
