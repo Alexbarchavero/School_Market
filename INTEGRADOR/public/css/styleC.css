@@ -1,13 +1,22 @@
 .Tcontacto{
     text-align: center;
+    margin: 2.5em;
+    padding: 1em;
 }
-h2{
+
+.razones h2{
     text-align: center;
+    color: white;
 }
+
+.contactos h2{
+    text-align: center;
+    color: white;
+}
+
 p{
     text-align: center;
     justify-content: center;
-    color: black;
 }
 .razones{
     flex: 1;
@@ -23,31 +32,61 @@ p{
     height: auto;
     margin-bottom: 1rem;
     border-radius: 10px;
-    box-shadow: 0 0 7px 10px #154360;
+    box-shadow: 0 0 7px 10px #21A647;
     display: flex;
     flex-direction: column;
     height: auto;
-    background-color: #35AACF;
+    background-color: #39D365;
     margin-right: 50px;
+    color: black;
 }
 .base{
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-a{
-    color: white;
-}
+
 .redes{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 20px; 
+    padding-right: 20px;
+    color: white;
 }
 
 .redes img {
     width: 30px; 
     height: 30px; 
     margin-left: 10px; 
+}
+
+#iframe{
+    width: 480px;
+    height: 480px;
+    margin: 2.5em;
+    padding: 0;
+}
+
+#fr-red{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navredes{
+    display: block;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+button{
+    border-radius: 10%;
+    border-style: none;
+    background-color: #21A647;
+    width: 50px;
+    height: 25px;
+    color: white;
 }
