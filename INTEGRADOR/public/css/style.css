@@ -1,24 +1,11 @@
 body{
-    font-size: 15px;
+    font-family: 'Roboto';
+    font-size: 20px !important;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
-nav {
-    background-color: #79db53;
-    font-weight: bold;
-    font-size: 25px;
-
-}
-a {
-    color: red;
-}
-
-#boton{
-    border: 0.2em solid blue;
-    border-radius: 20%;
-    margin: 5em 0em;
-    padding: 2em;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration:underline black;
-    text-decoration: line-through;
-    font-size: 1em !important;
+a{
+    text-decoration: none;
+    color: black;
 }
