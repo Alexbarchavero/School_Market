@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{asset('css/vmv.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{asset('css/aboutus.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/styleH.css')}}"/>
     <title>SCHOOLMARKET</title>
 </head>
 
@@ -14,7 +15,7 @@
         
     <header id="main-header">
         <a href="#" class="logo">
-            <img src="https://drive.google.com/file/d/1tb1VCZldTFctB6sTismcVODWkr1vam6i/view?usp=drive_link" alt="Logo" class="logo-img" style="width: 120px; height: auto;">
+            <img src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9yRFU4ay9NQUZ6dHVyRFU4ay8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAGVBpnCiGmU3UPGbwWpWzEisfu-mtXwGjaD2yOBZ3rAw&exp=1699582767&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAACFnUQugeVoTeg6WHg-oJGcPFh-AiWmWUOAcMk7779q_" alt="Logo" class="logo-img" style="width: 120px; height: auto;">
         </a>
         <nav class="navigation">
             <a href="#">Acerca de</a>
