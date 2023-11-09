@@ -15,7 +15,7 @@
         
     <header id="main-header">
         <a href="#" class="logo">
-            <img src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9yRFU4ay9NQUZ6dHVyRFU4ay8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAGVBpnCiGmU3UPGbwWpWzEisfu-mtXwGjaD2yOBZ3rAw&exp=1699582767&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAACFnUQugeVoTeg6WHg-oJGcPFh-AiWmWUOAcMk7779q_" alt="Logo" class="logo-img" style="width: 120px; height: auto;">
+            <img src="https://media.canva.com/1/image-resize/1/500_500_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9yRFU4ay9NQUZ6dHVyRFU4ay8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAKAnXXwlabfhI3ngLJL8EqeT7PXnT1iTAvTHQL3ahRp-&exp=1699582767&x-canva-quality=thumbnail_large&csig=AAAAAAAAAAAAAAAAAAAAALTHD9oV0N3Hw_8_6wVnHUOqWKRoLrw3ANAHuwUPEgAi" alt="Logo" class="logo-img" style="width: 80px; height: auto;">
         </a>
         <nav class="navigation">
             <a href="#">Acerca de</a>

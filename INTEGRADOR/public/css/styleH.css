@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-size: cover;
-    background-image: url('https://media-public.canva.com/Yij7I/MAEnbYYij7I/1/s.jpg');
+    background-image: url('https://media-private.canva.com/GuLEU/MAEEpnGuLEU/1/s2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20231109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231109T062841Z&X-Amz-Expires=72221&X-Amz-Signature=83005e79c030f9812cadf4a948e55da0f475472aa9480b5c0a654f95df5e8f28&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2010%20Nov%202023%2002%3A32%3A22%20GMT');
     background-repeat: no-repeat;
     background-position: center;
 }
