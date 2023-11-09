@@ -1,53 +1,6 @@
 @extends('layouts.mainlayout')
 @section('content')
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Misión Visión y Valores</title>
-  <style>
-    footer {
-      border: 1px solid #000;
-      padding: 10px 0;
-      display: flex;
-      justify-content: space-between;
-    }
-    
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
 
-    h2 {
-      color: green;
-    }
-
-    .container {
-      display: flex;
-      justify-content:center;
-      align-items:left;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .section {
-      width: 400px;
-      text-align:center;
-      margin: 20px;
-    }
-
-    .section img {
-      width: 400px;
-      height: 400px;
-    }
-
-    .section p {
-      text-align: justify;
-      margin: 10px;
-    }
-    
-  </style>
-</head>
-<body>
   <footer>
     <div class="container">
       <div class="section">
@@ -73,6 +26,4 @@
       </div>
     </div>
   </footer>
-</body>
-</html>
 @stop

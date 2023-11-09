@@ -1,0 +1,46 @@
+#boton{
+    border: 0.2em solid blue;
+    border-radius: 20%;
+    margin: 5em 0em;
+    padding: 2em;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration:underline black;
+    text-decoration: line-through;
+    font-size: 1em !important;
+}
+footer {
+    border: 1px solid #000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h2 {
+    color: green;
+  }
+
+  .container {
+    display: flex;
+    justify-content:center;
+    align-items:left;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .section {
+    width: 400px;
+    text-align:center;
+    margin: 20px;
+  }
+
+  .section img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .section p {
+    text-align: justify;
+    margin: 10px;
+  }
+  
