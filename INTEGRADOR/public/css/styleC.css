@@ -2,7 +2,7 @@
     text-align: center;
 }
 body{
-    background-color: #D2F2CC;
+    background-color: #35AACF; 
 }
 h2{
     text-align: center;
@@ -10,6 +10,7 @@ h2{
 p{
     text-align: center;
     justify-content: center;
+    color: white;
 }
 .razones{
     flex: 1;
@@ -22,7 +23,21 @@ p{
     text-align: center;
     justify-content: center;
     max-width: 25%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 10px #154360;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #35AACF;
 }
 .base{
-    background-color: #D9E0D8;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: white;
 }
