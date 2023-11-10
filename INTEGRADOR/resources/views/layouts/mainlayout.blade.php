@@ -29,7 +29,7 @@
     
     <footer class="site-footer seccion">
         <div class="contenedor contenedor-footer">
-            <p class="copyright">Todos los Derechos Reservados 2019 &copy; </p>
+            <p class="copyright">Todos los Derechos Reservados 2023 &copy; </p>
         </div>
     </footer>
 </body>
