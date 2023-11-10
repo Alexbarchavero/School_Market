@@ -1,5 +1,6 @@
 @extends('layouts.mainlayout')
 @section('content')
+<br><br><br><br><br><br>
 
   <footer>
     <div class="container">
