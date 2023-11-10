@@ -1,6 +1,6 @@
 @extends('layouts.mainlayout')
 @section('content')
-
+<br><br><br><br>
 <section id="seccion-1">
     <h1>¿Quienes somos?</h1>
     <div class="pimg">
