@@ -18,3 +18,7 @@ Route::get('/', 'HomeController@home');
 Route::get('/nosotros', 'HomeController@aboutus');
 Route::get('/contacto', 'HomeController@contact');
 Route::get('/mvv', 'HomeController@mvv');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
