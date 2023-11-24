@@ -1,4 +1,4 @@
-ñ<?php
+<?php
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -18,6 +18,7 @@ Route::get('/', 'HomeController@home');
 Route::get('/nosotros', 'HomeController@aboutus');
 Route::get('/contacto', 'HomeController@contact');
 Route::get('/mvv', 'HomeController@mvv');
+Route::get('users','UsersController@index')->name('users.index');
 
 Auth::routes();
 
