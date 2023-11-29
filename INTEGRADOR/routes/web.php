@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@home');
-Route::get('/nosotros', 'HomeController@aboutus');
-Route::get('/contacto', 'HomeController@contact');
-Route::get('/mvv', 'HomeController@mvv');
+Route::get('/', 'ControlIndex@home');
+Route::get('/nosotros', 'ControlIndex@aboutus');
+Route::get('/contacto', 'ControlIndex@contact');
+Route::get('/mvv', 'ControlIndex@mvv');
 Route::get('users','UsersController@index')->name('users.index');
 
 Auth::routes();
