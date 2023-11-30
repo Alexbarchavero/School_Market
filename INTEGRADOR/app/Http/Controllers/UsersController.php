@@ -23,6 +23,17 @@ class UsersController extends Controller
     public function create()
     {
         //
+        return view('users.create');
+    }
+
+    public function save(Request $request)
+    {
+        $newUser = new User;
+        Hash::make();
+        
+        $newUser->save();
+
+        return redirect(route('admin.users.index'));
     }
 
     /**

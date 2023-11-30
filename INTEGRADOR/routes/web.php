@@ -18,7 +18,9 @@ Route::get('/', 'ControlIndex@home');
 Route::get('/nosotros', 'ControlIndex@aboutus');
 Route::get('/contacto', 'ControlIndex@contact');
 Route::get('/mvv', 'ControlIndex@mvv');
-Route::get('users','UsersController@index')->name('users.index');
+Route::get('/admin/users','UsersController@index')->name('admin.users.index');
+Route::get('/admin/users/create','UsersController@create')->name('admin.users.create');
+Route::post('/admin/users/create','UsersController@save')->name('admin.users.save');
 
 Auth::routes();
 

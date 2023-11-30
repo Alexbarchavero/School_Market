@@ -19,4 +19,7 @@ class ControlIndex extends Controller
     public function mvv(){
         return view ('MVV');
     }
+    public function index(){
+        return vieew ('index');
+    }
 }
