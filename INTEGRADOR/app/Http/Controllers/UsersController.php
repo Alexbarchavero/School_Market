@@ -7,6 +7,11 @@ use App\Models\User;
 
 class UsersController extends Controller
 {
+    public function createUser(){
+        return view('users.create');
+    }
+
+
     /**
      * Display a listing of the resource.
      */
@@ -40,7 +45,11 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $newUser = new User();
+        $newUser -> username = $request -> username;
+        $newUser -> email = $request -> email;
+        $newUser -> password = $request -> password;
+        $newUser -> save();
     }
 
     /**

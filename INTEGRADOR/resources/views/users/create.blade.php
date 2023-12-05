@@ -1,41 +1,26 @@
 @extends('layouts.mainlayout')
 @section('content')
-
-<div>
-    <form action="{{ route('admin.users.create', $user->id) }}" method="POST">
+<br><br><br><br><br><br><br><br><br><br>
+<div id="formnewuser">
+    <form action="{{ route('users.store')}}" method="POST">
         @method('post')
         @csrf
 
-        <label for="username">Usuario</label>
-        <input name="username" type="text" value="{{ $user->username }}">
+        <label>Usuario</label>
+        <input name="username" type="text">
+        <br><br>
         
-        <label for="email">Email</label>
-        <input name="email" type="text" value="{{ $user->email }}">
-        
-        <label for="name">Nombre</label>
-        <input name="name" type="text" value="{{ $user->name }}">
-        
-        <label for="apellido1">Apellido1</label>
-        <input name="apellido1" type="text" value="{{ $user->apellido1 }}">
-        
-        <label for="apellido2">Apellido2</label>
-        <input name="apellido2" type="text" value="{{ $user->apellido2 }}">
-        
-        <label for="telefono">Telefono</label>
-        <input name="telefono" type="text" value="{{ $user->telefono }}">
-        
-        <label for="genero">Genero</label>
-        <input name="genero" type="text" value="{{ $user->genero }}">
-        
-        <label for="rol">Rol</label>
-        <input name="rol" type="text" value="{{ $user->rol }}">
+        <label>Email</label>
+        <input name="email" type="text">
+        <br></br>
 
-        <label for="avatar">Avatar</label>
-        <input name="avatar" type="text" value="{{ $user->avatar }}">
+        <label>Contraseña</label>
+        <input name="password" type="text">
+        <br><br>
 
         <button type="ACEPTAR">Crear</button>        
     </form>
 </div>
-
+<br><br><br><br><br>
 
 @endsection

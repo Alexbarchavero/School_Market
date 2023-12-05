@@ -1,10 +1,14 @@
 body{
     font-family: 'Roboto' !important;
     font-size: 20px !important;
-    color: white;
+    color: black;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+
 a{
     text-decoration: none;
     color: black;
@@ -34,7 +38,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
-    background: rgba(22, 41, 56, 0.8); /* Cambiar el color de fondo según tus preferencias */
+    background: rgba(22, 41, 56, 0.8);
 }
 
 #main-header .logo {
@@ -109,6 +113,28 @@ header {
 }
 .site-footer nav {
     display: none;
+}
+
+#tablausers{
+    margin-left: 7.5em;
+    margin-right: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+}
+
+#crearuser{
+    margin: 2em;
+    padding: 1em;
+}
+
+#formnewuser{
+    margin: 6em;
+    padding: 2em;
+    align-items: center;
+    text-align: center;
 }
 
 .copyright {

@@ -2,9 +2,13 @@
 
 @section('content')
 
-<br><br>
-<a href="{{ route('edit') }}">Crear Usuario</a>
-<table>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<a href="{{route('users.createUsers')}}">Crear Usuario</a>
+
+
+<table id="tablausers">
     <tr>
         <th>Id</th>
         <th>Nombre</th>
@@ -23,13 +27,13 @@
             <td>{{$user->last_name2}}</td>
             <td>{{$user->avatar}}</td>
             <td>
-                <a href="{{ route('edit') }}">Editar</a>
+                <a href="#">Editar</a>
                 <a href="#">Eliminar</a>
             </td>
         </tr>
     {{$user->user_name}}
     @endforeach
 </table>
-<br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
 @endsection

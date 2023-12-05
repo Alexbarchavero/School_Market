@@ -24,3 +24,8 @@ Route::put('/admin/users/edit','UsersController@edit')->name('admin.users.edit')
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('index');
+
+Route::get('/users', [App\Http\Controllers\UsersController::class, 'index'])->name('index');
+
+Route::get('/users/create',[App\Http\Controllers\UsersController::class, 'createUser'])->name('users.createUsers');
+Route::post('/users/create/add',[App\Http\Controllers\UsersController::class, 'store'])->name('users.store');
