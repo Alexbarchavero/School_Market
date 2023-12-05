@@ -22,7 +22,17 @@ class UsersController extends Controller
      */
     public function create()
     {
-        //
+        $users=User::get();
+        return view('users.create',compact('create'));
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     */
+    public function edit(string $id)
+    {
+        $users=User::get();
+        return view('users.edit',compact('edit'));
     }
 
     /**
@@ -37,14 +47,6 @@ class UsersController extends Controller
      * Display the specified resource.
      */
     public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
     {
         //
     }
