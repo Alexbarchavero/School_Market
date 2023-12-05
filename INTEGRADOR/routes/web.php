@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 
 Route::get('/', 'ControlIndex@home');
@@ -15,9 +16,5 @@ Route::post('/admin/users/save','UsersController@save')->name('admin.users.save'
 Route::put('/admin/users/edite','UsersController@edite')->name('admin.users.edite');
 Route::delete('/admin/users/delete','UsersController@delete')->name('admin.users.delete');
 
-
-
-
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
