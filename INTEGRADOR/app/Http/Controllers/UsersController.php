@@ -29,7 +29,9 @@ class UsersController extends Controller
     public function save(Request $request)
     {
         $newUser = new User;
-        Hash::make();
+        $newUser->user_name =$request->name;
+        $newUser->email =$request->email;
+        $newUser->pass_word =Hash::make($request->password);
         
         $newUser->save();
 
