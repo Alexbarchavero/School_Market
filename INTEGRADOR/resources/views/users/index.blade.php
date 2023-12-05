@@ -2,7 +2,16 @@
 
 @section('content')
 
-<div style="margin-top:5rem"></div>
+<div style="margin-top:5rem">
+<table>
+    <tr>
+        <th></th>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+</div>
 @foreach($users as $user)
 {{$user->user_name}}
 @endforeach
