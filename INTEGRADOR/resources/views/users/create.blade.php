@@ -1,39 +1,26 @@
 @extends('layouts.mainlayout')
-
 @section('content')
-
-<div>
-    <form action="route('admin.users.save')" method="POST">
+<br><br><br><br><br><br><br><br><br><br>
+<div id="formnewuser">
+    <form action="{{ route('users.store')}}" method="POST">
         @method('post')
         @csrf
 
-        <label for="">Usuario</label>
-        <input name="" type="text">
-
-        <label for="">Email</label>
-        <input name="" type="text">
+        <label>Usuario</label>
+        <input name="username" type="text">
+        <br><br>
         
-        <label for="">Nombre</label>
-        <input name="" type="text">
-        
-        <label for="">Apellido1</label>
-        <input name="" type="text">
-        
-        <label for="">Apellido2</label>
-        <input name="" type="text">
-        
-        <label for="">Telefono</label>
-        <input name="" type="text">
+        <label>Email</label>
+        <input name="email" type="text">
+        <br></br>
 
-        <label for="">Genero</label>
-        <input name="" type="text">
+        <label>Contraseña</label>
+        <input name="password" type="text">
+        <br><br>
 
-        <label for=""></label>
-        <input name="" type="text">
-
-        <label for=""></label>
-        <input name="" type="text">
+        <button type="ACEPTAR">Crear</button>        
     </form>
 </div>
+<br><br><br><br><br>
 
 @endsection

@@ -2,10 +2,13 @@
 
 @section('content')
 
-<div style="margin-top:5rem"></div>
-<br><br>
-<a href="#">Crear Usuario</a>
-<table>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+<a href="{{route('users.createUsers')}}">Crear Usuario</a>
+
+
+<table id="tablausers">
     <tr>
         <th>Id</th>
         <th>Nombre</th>
@@ -31,5 +34,6 @@
     {{$user->user_name}}
     @endforeach
 </table>
-<br><br>
+<br><br><br><br><br><br><br><br><br><br>
+
 @endsection

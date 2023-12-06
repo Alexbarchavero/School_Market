@@ -7,6 +7,11 @@ use App\Models\User;
 
 class UsersController extends Controller
 {
+    public function createUser(){
+        return view('users.create');
+    }
+
+
     /**
      * Display a listing of the resource.
      */
@@ -22,20 +27,17 @@ class UsersController extends Controller
      */
     public function create()
     {
-        //
-        return view('users.create');
+        $users=User::get();
+        return view('users.create',compact('create'));
     }
 
-    public function save(Request $request)
+    /**
+     * Show the form for editing the specified resource.
+     */
+    public function edit(string $id)
     {
-        $newUser = new User;
-        $newUser->user_name =$request->name;
-        $newUser->email =$request->email;
-        $newUser->pass_word =Hash::make($request->password);
-        
-        $newUser->save();
-
-        return redirect(route('admin.users.index'));
+        $users=User::get();
+        return view('users.edit',compact('edit'));
     }
 
     /**
@@ -43,21 +45,19 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $newUser = new User();
+        $newUser -> username = $request -> username;
+        $newUser -> email = $request -> email;
+        $newUser -> password = $request -> password;
+        $newUser -> save();
+
+        return redirect(route('index'));
     }
 
     /**
      * Display the specified resource.
      */
     public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
     {
         //
     }
