@@ -1,0 +1,364 @@
+/* Importación de fuente */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Estilos para el encabezado */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+    header {
+        padding: 20px 10px;
+    }
+    .logo {
+        font-size: 1.5em;
+    }
+    .navigation a {
+        font-size: 0.9em;
+    }
+    .navigation a::after {
+        bottom: -4px;
+    }
+    .navigation .bthLogin-popup {
+        font-size: 0.9em;
+    }
+}
+
+/* Estilos para enlaces de navegación */
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: color 0.3s ease; /* Transición suave de color al pasar el ratón */
+}
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #333;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+.navigation a:hover {
+    color: #e44d26; /* Color de resaltado al pasar el ratón */
+}
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/* Estilos para botón de inicio de sesión */
+.navigation .bthLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: #e44d26;
+    border: 2px solid #e44d26;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: background 0.5s, color 0.5s; /* Transición suave de colores */
+}
+.navigation .bthLogin-popup:hover {
+    background: #fff;
+    color: #e44d26;
+}
+
+/* Otras funciones y mejoras */
+body, h1, h2, h3, h4, h5, h6 {
+    font-weight: 600; /* Texto más audaz por defecto */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamaño de fuente para encabezados principales */
+}
+
+h2 {
+    font-size: 2em; /* Tamaño de fuente para encabezados secundarios */
+}
+
+p {
+    line-height: 1.6; /* Altura de línea para una mejor legibilidad */
+}
+
+/* Estilos para enlaces generales */
+a {
+    color: #135F34;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #333;
+}
+
+/* Estilos para botones generales */
+.bth {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e44d26;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    transition: background 0.5s, color 0.5s;
+}
+.bth:hover {
+    background: #fff;
+    color: #e44d26;
+}
+
+/* Estilos para secciones */
+.section {
+    padding: 40px;
+}
+
+/* Estilos para tarjetas */
+.card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Estilos para formulario */
+.form-box {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #333;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #e44d26;
+    outline: none;
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+    padding: 0 15px;
+    border-radius: 4px;
+    transition: border-color 0.5s;
+}
+
+.input-box input:focus {
+    border-color: #333;
+}
+
+/* Estilos para iconos */
+.icon {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Estilos para sección de recordar/olvidar */
+.remember-forgot {
+    font-size: .9em;
+    color: #333;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input {
+    accent-color: #e44d26;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #e44d26;
+    text-decoration: none;
+}
+
+
+style.css
+
+body {
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+/* style.css */
+
+#main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: rgba(22, 41, 56, 0.8); /* Cambiar el color de fondo según tus preferencias */
+}
+
+#main-header .logo {
+    font-size: 2em;
+    color: #ffffff;
+    user-select: none;
+}
+
+#main-header .navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+#main-header .navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+#main-header .navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#main-header .navigation .bthLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+#main-header .navigation .bthLogin-popup:hover {
+    background: #ffffff;
+    color: #162938;
+}
+
+/*-----------------------------------------------*/
+
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+}
+.contenedor-footer {
+    padding: 3rem 0;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .contenedor-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.site-footer nav {
+    display: none;
+}
+
+.copyright {
+    margin: 0;
+    color: #ffffff;
+}
+
+#phome{
+    margin: 2.5em;
+    padding: 2.5em;
+    font-size: 52px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

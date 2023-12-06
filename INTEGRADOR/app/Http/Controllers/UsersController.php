@@ -50,6 +50,8 @@ class UsersController extends Controller
         $newUser -> email = $request -> email;
         $newUser -> password = $request -> password;
         $newUser -> save();
+
+        return redirect(route('index'));
     }
 
     /**
