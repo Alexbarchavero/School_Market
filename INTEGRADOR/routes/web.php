@@ -29,6 +29,3 @@ Route::get('/users', [App\Http\Controllers\UsersController::class, 'index'])->na
 
 Route::get('/users/create',[App\Http\Controllers\UsersController::class, 'createUser'])->name('users.createUsers');
 Route::post('/users/create/add',[App\Http\Controllers\UsersController::class, 'store'])->name('users.store');
-
-Route::get('/users/create',[App\Http\Controllers\UsersController::class, 'createUser'])->name('users.createUsers');
-Route::post('/users/create/add',[App\Http\Controllers\UsersController::class, 'store'])->name('users.store');
