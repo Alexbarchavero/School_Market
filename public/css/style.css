@@ -1,0 +1,377 @@
+/* ---------- CSS PARA LA BARRA DE NAVEGACION Y PARA EL FOOTER ---------- */
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    font-family: 'Roboto' !important;
+    font-size: 20px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------- HEADER ------------------------- */
+
+.header{
+    background-color: rgba(0, 60, 25, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 90px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.2s;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color:black;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: rgb(0, 90, 25);
+    color: white;
+    transform: scale(1.05);
+}
+
+/* ------------------------- CSS PARA EL HOME ------------------------- */
+
+.status-home{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    margin: 25px 500px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.status-home:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    transform: scale(1.1);
+}
+
+/* ------------------------- FOOTER ------------------------- */
+
+.footer{
+    background-color: rgba(35, 45, 60, 0.75);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 125px;
+}
+
+.footer p{
+    text-align: center;
+    color: whitesmoke;
+    margin: 50px;
+    padding: 50px;
+    font-size: 0.5em;
+}
+
+/* ------------------------- CSS ABOUT US ------------------------- */
+
+#seccion-1{
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+    align-items: center;
+}
+
+#seccion-1 h1{
+    display: block;
+    background-color: rgba(0, 60, 25, 0.65);
+}
+
+#seccion-1 .pimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.25em;
+    padding: 0.5em;
+}
+
+#seccion-1 .pimg > img{
+    width: 480px;
+    height: 360px;
+    margin: 0.5em;
+}
+
+#seccion-1 .pimg > p{
+    padding: 1.5em;
+    text-align: justify;
+    background-color: rgba(0, 60, 25, 0.65);
+}
+
+#seccion-2{
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+    align-items: center;
+}
+
+#seccion-2 h1{
+    display: block;
+    background-color: rgba(0, 60, 25, 0.65);
+}
+
+#seccion-2 .imgp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.25em;
+    padding: 0.5em;
+}
+
+#seccion-2 .imgp > img{
+    width: 480px;
+    height: 360px;
+    margin: 0.5em;
+}
+
+#seccion-2 .imgp > p{
+    padding: 1.5em;
+    text-align: justify;
+    background-color: rgba(0, 60, 25, 0.65);
+}
+
+/* ------------------------- CSS CONTACTO ------------------------- */
+
+.Tcontacto{
+    text-align: center;
+    margin: 2.5em;
+    padding: 1em;
+}
+
+.razones h2{
+    text-align: center;
+    color: white;
+}
+
+.contactos h2{
+    text-align: center;
+    color: white;
+}
+
+.textos{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+.razones{
+    flex: 1;
+    text-align: left;
+    max-width: 25%;
+}
+
+.base{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    color: white;
+}
+
+.redes img {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 10px; 
+}
+
+#iframe{
+    width: 480px;
+    height: 480px;
+    margin: 2.5em;
+    padding: 0;
+}
+
+#fr-red{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navredes{
+    display: block;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.enviar{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.enviar:hover{
+    background-color: rgb(0, 90, 25);
+    color: white;
+    transform: scale(1.05);
+}
+
+/* ------------------------- CSS MVV ------------------------- */
+.mvv-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.mvv-section {
+    width: 400px;
+    text-align:center;
+    margin: 20px;
+}
+
+.mvv-section img {
+    width: 250px;
+    height: 250px;
+}
+
+.mvv-section p {
+    font-size: 15px !important;
+    text-align: justify;
+    margin: 10px;
+}
+
+/* ------------------------- CSS COMPARTIDO ------------------------- */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin: 20px 0;
+    color: black;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------- CSS ESPECÍFICO PARA EL LOGIN ------------------------- */
+
+.login-container {
+    width: 400px;
+}
+
+.form-check {
+    margin: 10px;
+}
+
+/* ------------------------- CSS ESPECÍFICO PARA EL REGISTER ------------------------- */
+
+.register-container {
+    width: 400px;
+}
