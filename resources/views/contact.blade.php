@@ -1,10 +1,8 @@
 @extends('layouts.mainlayout')
 @section('content')
-<br><br><br>
     <div class="Tcontacto">
         <h1>Contacto</h1>
     </div>
-    <br>
     <div class="base">
         <div class="razones">
             <h2>Razones por las que podrian contatarnos:</h2>
@@ -52,8 +50,6 @@
                     <a class="redes" href="https://www.instagram.com">Instagram <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram"></a>
                     <br>
                     <a class="redes" href="https://www.google.com/intl/es/gmail/about/">Correo electrónico <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="Correo"></a>
-                    <br>
-                    <a class="redes" href="+524427718834">Teléfono <img src="https://assets.stickpng.com/images/5a4525cd546ddca7e1fcbc84.png" alt="Teléfono"></a>
                     <br>
                 </nav>
             </div>

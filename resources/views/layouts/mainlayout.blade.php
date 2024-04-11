@@ -11,7 +11,7 @@
             background-size: cover;
             background-image: url("{{asset('img/background.png')}}");
             background-repeat: no-repeat;
-            background-position: center;
+            background-position:center;
         }
     </style>
 </head>
@@ -58,11 +58,11 @@
             </ul>
         </nav>
     </header>
-    <br><br>
+    <br>
 
     @yield('content')
     
-    <br><br>
+    <br>
     <footer class="footer">
         <p class="copyright">Todos los Derechos Reservados 2023 &copy; </p>
     </footer>
