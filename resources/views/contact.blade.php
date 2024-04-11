@@ -1,9 +1,6 @@
 @extends('layouts.mainlayout')
 @section('content')
-<br><br>
-    <div class="Tcontacto">
-        <h1>Contacto</h1>
-    </div>
+<br><br><br><br>
     <div class="razones">
         <h2>Razones por las que podrian contatarnos:</h2>
         <br>
@@ -12,6 +9,7 @@
         <p class="textos">-Asesoria para una mejor elección</p>
         <p class="textos">-Colaboración con nosotros</p>
     </div>
+    <br>
     <div class="formulario">
         <form action="#">
             <ul>
