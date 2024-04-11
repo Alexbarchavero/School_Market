@@ -1,40 +1,39 @@
 @extends('layouts.mainlayout')
 @section('content')
+<br><br>
     <div class="Tcontacto">
         <h1>Contacto</h1>
     </div>
-    <div class="base">
-        <div class="razones">
-            <h2>Razones por las que podrian contatarnos:</h2>
+    <div class="razones">
+        <h2>Razones por las que podrian contatarnos:</h2>
+        <br>
+        <p class="textos">-Aclaraciones y dudas</p>    
+        <p class="textos">-Horarios</p>
+        <p class="textos">-Asesoria para una mejor elección</p>
+        <p class="textos">-Colaboración con nosotros</p>
+    </div>
+    <div class="formulario">
+        <form action="#">
+            <ul>
+            <label for="name">Nombre:</label>
             <br>
-            <p class="textos">-Aclaraciones y dudas</p>    
-            <p class="textos">-Horarios</p>
-            <p class="textos">-Asesoria para una mejor elección</p>
-            <p class="textos">-Colaboración con nosotros</p>
-        </div>
-        <div class="formulario">
-            <form action="#">
-                <ul>
-                <label for="name">Nombre:</label>
-                <br>
-                <input type="text" id="name" name="nameU" />
-                <br>
-                <label for="mail">Correo electrónico:</label>
-                <br>
-                <input type="email" id="mail" name="user_mail" />
-                <br>
-                <label for="tel">Número de telefono:</label>
-                <br>
-                <input type="telf" id="tel" name="user_tel" />
-                <br>
-                <label for="msg">Comentanos tu problema:</label>
-                <br>
-                <textarea id="msg" name="user_message"></textarea>
-                <br>
-                <button class="enviar" type="submit">Envíar</button>
-                </ul>
-            </form>
-        </div>
+            <input type="text" id="name" name="nameU" />
+            <br>
+            <label for="mail">Correo electrónico:</label>
+            <br>
+            <input type="email" id="mail" name="user_mail" />
+            <br>
+            <label for="tel">Número de telefono:</label>
+            <br>
+            <input type="telf" id="tel" name="user_tel" />
+            <br>
+            <label for="msg">Comentanos tu problema:</label>
+            <br>
+            <textarea id="msg" name="user_message"></textarea>
+            <br>
+            <button class="enviar" type="submit">Envíar</button>
+            </ul>
+        </form>
     </div>
     <br><br>
     <div class="contactos">   

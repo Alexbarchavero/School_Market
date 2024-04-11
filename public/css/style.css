@@ -179,8 +179,8 @@
 
 .Tcontacto{
     text-align: center;
-    margin: 2.5em;
-    padding: 1em;
+    margin: 2em;
+    padding: 0.5em;
 }
 
 .razones h2{
@@ -204,13 +204,15 @@
     text-align: left;
     max-width: 25%;
 }
-
-.base{
-    display: flex;
+.formulario{
+    background-color: rgba(150, 150, 150, 0.5);
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 5em;
+    padding: 5em;
 }
+
 
 .redes{
     display: flex;
@@ -264,6 +266,7 @@
     color: white;
     transform: scale(1.05);
 }
+
 
 /* ------------------------- CSS MVV ------------------------- */
 .mvv-container {
