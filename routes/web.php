@@ -22,7 +22,7 @@ Route::get('/mvv', 'ControlIndex@mvv');
 
 Auth::routes();
 
-Route::get('/users', [UsersController::class, 'index'])->name('users.index')->middleware('auth');
+Route::get('/users', [UsersController::class, 'index'])->name('index')->middleware('auth');
 Route::get('/users/create',[UsersController::class, 'create'])->name('users.create');
 Route::post('/users/create/add',[UsersController::class, 'store'])->name('users.store');
 Route::get('/users/{id}/edit', [UsersController::class, 'edit'])->name('users.edit');

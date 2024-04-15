@@ -27,7 +27,7 @@
                 <li><a href="{{url('/contacto')}}">Contacto</a></li>
                 <li><a href="{{url('/mvv')}}">Misión/Visión/Valores</a></li>
                 @auth
-                    <li><a href="{{route('users.index')}}">Usuarios</a></li>
+                    <li><a href="{{route('index')}}">Usuarios</a></li>
                 @endauth
             </ul>
         </nav>
