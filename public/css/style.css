@@ -1,4 +1,7 @@
 /* ---------- CSS PARA LA BARRA DE NAVEGACION Y PARA EL FOOTER ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: auto;
@@ -177,77 +180,49 @@
 
 /* ------------------------- CSS CONTACTO ------------------------- */
 
-.razones h2{
+.razones h1, h2 {
     text-align: center;
     color: black;
 }
 
-.contactos h2{
+.textos {
     text-align: center;
-    color: black;
-}
-
-.textos{
-    text-align: center;
-    justify-content: center;
     font-size: 1.1em;
+    list-style: none;
+    padding: 0;
 }
 
-.razones{
-    flex: 1;
-    text-align: left;
-    max-width: 25%;
-}
-.formulario{
+.formulario {
     background-color: rgba(150, 150, 150, 0.25);
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 5em;
-    margin-right: 5em;
     padding: 1em;
 }
 
-
-.redes{
+.redes {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 25px;
     color: black;
 }
 
 .redes img {
-    width: 25px; 
-    height: 25px; 
-    margin-left: 5px; 
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
 }
 
-#iframe{
-    width: 480px;
-    height: 480px;
-    margin: 3em;
-    padding-left: 1em;
+iframe {
+    width: 500px;
+    height: 500px;
 }
 
-#fr-red{
+#fr-red {
     display: flex;
-    margin: 0;
-    padding: 0;
     align-items: center;
     justify-content: space-evenly;
 }
 
-#navredes{
-    display: block;
-    margin: 0;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
-.enviar{
+.enviar {
     font-weight: 700;
     color: black;
     padding: 9px 25px;
@@ -255,14 +230,15 @@
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease;
 }
 
-.enviar:hover{
+.enviar:hover {
     background-color: rgba(100,100,100,0.75);
     color: white;
     transform: scale(1.05);
 }
+
 
 
 /* ------------------------- CSS MVV ------------------------- */

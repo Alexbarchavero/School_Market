@@ -25,7 +25,7 @@
             <ul class="nav-links">
                 <li><a href="{{url('/nosotros')}}">Nosotros</a></li>
                 <li><a href="{{url('/contacto')}}">Contacto</a></li>
-                <li><a href="{{url('/mvv')}}">Mision Vision Valores</a></li>
+                <li><a href="{{url('/mvv')}}">Misión/Visión/Valores</a></li>
             </ul>
         </nav>
         <nav>
@@ -64,7 +64,7 @@
     
     <br>
     <footer class="footer">
-        <p class="copyright">Todos los Derechos Reservados 2023 &copy; </p>
+        <p class="copyright">Todos los Derechos Reservados 2024 &copy; </p>
     </footer>
 </body>
 </html>
