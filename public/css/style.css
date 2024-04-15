@@ -332,6 +332,24 @@ label {
     text-decoration: underline;
 }
 
+/* ------------------------- CSS ESPECÍFICO PARA EL RESET DE CONTRASEÑA ------------------------- */
+
+.container {
+    width: 400px;
+}
+
+.card-header {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
+
 /* ------------------------- CSS ESPECÍFICO PARA EL LOGIN ------------------------- */
 
 .login-container {
